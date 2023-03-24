@@ -27,7 +27,7 @@ export const borealTheme: Theme = {
   tertiary: '#B6BCFF',
   primaryDark: '#4650BD',
   secondaryDark: '#008364',
-  fontColor: '#444444',
+  fontColor: '#FFFFFF',
 };
 
 export const GlobalStyles = createGlobalStyle`
