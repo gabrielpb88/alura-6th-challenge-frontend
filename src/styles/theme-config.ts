@@ -22,11 +22,11 @@ export const summerTheme: Theme = {
 
 export const borealTheme: Theme = {
   gradient: 'linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);',
-  primary: '#C8DEEF',
-  secondary: '#FBF0DD',
-  tertiary: '#FACF9D',
-  primaryDark: '#2E7BA2',
-  secondaryDark: '#DF9010',
+  primary: '#304968',
+  secondary: '#36C1A0',
+  tertiary: '#B6BCFF',
+  primaryDark: '#4650BD',
+  secondaryDark: '#008364',
   fontColor: '#444444',
 };
 
