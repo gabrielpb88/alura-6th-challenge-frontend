@@ -1,6 +1,6 @@
-import { createGlobalStyle, DefaultTheme } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-export interface Theme extends DefaultTheme {
+export interface Theme {
   gradient: string;
   primary: string;
   secondary: string;
