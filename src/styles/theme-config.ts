@@ -1,13 +1,13 @@
-import {createGlobalStyle, DefaultTheme} from "styled-components"
+import { createGlobalStyle, DefaultTheme } from 'styled-components';
 
 export interface Theme extends DefaultTheme {
-  gradient: string
-  primary: string
-  secondary: string
-  tertiary: string
-  primaryDark: string
-  secondaryDark: string,
-  fontColor: string
+  gradient: string;
+  primary: string;
+  secondary: string;
+  tertiary: string;
+  primaryDark: string;
+  secondaryDark: string;
+  fontColor: string;
 }
 
 export const summerTheme: Theme = {
@@ -17,8 +17,8 @@ export const summerTheme: Theme = {
   tertiary: '#FACF9D',
   primaryDark: '#2E7BA2',
   secondaryDark: '#DF9010',
-  fontColor: '#444444'
-}
+  fontColor: '#444444',
+};
 
 export const borealTheme: Theme = {
   gradient: 'linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);',
@@ -27,8 +27,8 @@ export const borealTheme: Theme = {
   tertiary: '#FACF9D',
   primaryDark: '#2E7BA2',
   secondaryDark: '#DF9010',
-  fontColor: '#444444'
-}
+  fontColor: '#444444',
+};
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -36,4 +36,4 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.fontColor};
     height: 100vh;
   }
-`
+`;
