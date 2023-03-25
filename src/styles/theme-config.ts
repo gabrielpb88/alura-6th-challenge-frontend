@@ -33,6 +33,7 @@ export const borealTheme: Theme = {
 export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.gradient};
+    background-attachment: fixed;
     color: ${({ theme }) => theme.fontColor};
     height: 100vh;
   }

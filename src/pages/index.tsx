@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
 import Banner from '@/components/Banner';
+import DateEvents from '@/components/DateEvents';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Banner>Boas-vindas ao #CodeChella2023!</Banner>
+      <DateEvents />
     </>
   );
 }
